@@ -31,9 +31,13 @@ docker compose up -d
 Now you should be able to access services on below ports :
 
 Jupyter Lab → http://localhost:8888/
+
 Driver UI → http://localhost:4040
+
 Spark Master UI → http://localhost:8080
+
 Worker 1 UI → http://localhost:8081
+
 Worker 2 UI → http://localhost:8082
 
 # Stop the cluster when done:
