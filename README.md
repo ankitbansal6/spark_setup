@@ -1,4 +1,4 @@
-1- # Install docker desktop from the link below , install and open the application:
+1- Install docker desktop from the link below , install and open the application:
 https://www.docker.com/products/docker-desktop/
 
 2- Create following files and folders structure inside spark-bootcamp folder in your computer at any path.
