@@ -15,8 +15,6 @@ ENV PYSPARK_DRIVER_PYTHON=python3.8
 # Install Jupyter + PySpark (match Spark 3.5.1)
 RUN pip3 install --no-cache-dir notebook jupyterlab pyspark==3.5.1
 
-# Set Java home
-ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
 # Working directory
 WORKDIR /workspace
