@@ -102,7 +102,6 @@ services:
     mem_limit: 2g
     memswap_limit: 2g  
     environment:
-      JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
       SPARK_MASTER_URL: spark://spark-master:7077
       SPARK_CONF_DIR: /opt/spark/conf
     volumes:
