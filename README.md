@@ -54,6 +54,7 @@ from pyspark.sql import SparkSession
 spark = (
 SparkSession.builder.master("spark://spark-master:7077").appName("spark-session-mac").getOrCreate()
 )
+
 spark
 
 It should display spark version. 
